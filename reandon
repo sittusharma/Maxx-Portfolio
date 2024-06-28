@@ -1,0 +1,63 @@
+.Services h2 {
+    margin-bottom: 5rem;
+}
+
+.Services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.Services-container .Services-box {
+    flex: 1 1 30rem;
+    background: var(--snd-bg-color); 
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 2rem solid var(--bg-color); 
+    transition: .10s ease;
+}
+
+.Services-container .Services-box:hover {
+    border-color: var(--main-color, #000000); /* Added fallback value */
+    transform: scale(1.02);
+}
+
+.Services-box i{
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.Services-box h3{
+    font-size: 1.6rem;
+    margin:1 rem 0 3rem ;
+}
+
+
+
+
+
+
+
+
+.protfolio-box:hover .protfolio-layer{
+    transform: translateY(0);
+}
+
+.protfolio-layer h4{
+    font-size: 1rem ;
+}
+
+.protfolio-layer p{
+    font-size: 1.6rem;
+    margin: 3rem 0 1rem;
+}
+
+.protfolio-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+}
